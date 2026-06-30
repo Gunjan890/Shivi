@@ -18,15 +18,15 @@ API_ID = int(getenv("API_ID", 26493077))
 API_HASH = getenv("API_HASH", "6586f0276c7748e54684719bdd247d90")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "IAMIstkhar")
+OWNER_ID = int(getenv("OWNER_ID", 8185848457))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "gunjan_s3")
 BOT_USERNAME = getenv("BOT_USERNAME", "Kavya_Music_Robot")
 BOT_NAME = getenv("BOT_NAME", "≽ ^⎚ 𝗥𝗼𝗼𝗵𝗶 𝘅 𝗺𝘂𝘀𝗶𝗰 ⎚^ ≼")
 ASSUSERNAME = getenv("ASSUSERNAME", "≽ ^⎚ 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 ⎚^ ≼")
 
 # ── Database & logging ────────────────────────────────────────────────────────
 MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1003834337399))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002302005857))
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 30000))
@@ -47,13 +47,13 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ── Git / updates ──────────────────────────────────────────────────────────
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TEAM-ISTKHAR/ISTKHAR_MUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Gunjan890/Shivi")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
 # ── Support links ──────────────────────────────────────────────────────────
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/IAMIstkhar")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/iamistkhar")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/IAMIkhar")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/iamtkhar")
 
 # ── Assistant auto-leave ───────────────────────────────────────────────────────
 AUTO_LEAVING_ASSISTANT = False
